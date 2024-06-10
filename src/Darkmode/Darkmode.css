@@ -1,0 +1,17 @@
+/* src/index.css */
+:root {
+    --background-color: white;
+    --text-color: black;
+  }
+  
+  .dark {
+    --background-color: black;
+    --text-color: white;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+  }
+  

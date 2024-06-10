@@ -1,0 +1,116 @@
+.container {
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #a{
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+  
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: #040837;
+    color: white;
+  }
+  
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+.samar {
+    border-radius: 15px;
+    margin-top: 250px;
+    padding: 0 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.h35 {
+  
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page12, .page13, .page14, .page15, .page16, .page17, .page18, .page19, .page20, .page21, .page22, .page23, .page24, .page25, .page26 {
+  
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+}
+
+.page27 h2 {
+    
+    font-style: italic;
+    font-size: 20px;
+}
+
+.page28 h3 {
+    
+    font-style: italic;
+    font-size: 20px;
+}
+
+.page27 {
+    gap: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 115, 190);
+    width: 900px;
+    margin: auto;
+}
+
+li::marker {
+    color: rgb(0, 255, 34);
+}
+
+li{
+    color: black;
+}
+
+.page28 {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+.h2Style {
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.katta {
+  width: 900px;
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

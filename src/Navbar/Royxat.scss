@@ -1,0 +1,225 @@
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+/* .s1{
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border-color: green;
+}
+.s2{
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border-color: green;
+}
+.s3{
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border-color: green;
+}
+.contact button{
+  width: 100px;
+  height: 35px;
+  background-color: rgb(0, 0, 0);
+ color: white;
+  border-radius: 8px;
+} */
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-businessman-working-on-digital-table-with-intelligence-and-analytics-of-business-photo-image_2312878.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+/* .q{
+  display: flex;
+  align-items: center;
+}
+.input{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  backdrop-filter: blur(20px); 
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+.W{
+
+  width: 15px;
+  height: 15px;
+} */
+
+
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-businessman-working-on-digital-table-with-intelligence-and-analytics-of-business-photo-image_2312878.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  
+}
+.contact_text {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+
+  font-family: sans-serif;
+  h3 {
+    padding-top: 10px;
+  }
+}
+.contact-one h1{
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+.contact-one h2{
+  color: white;
+}
+.contact-in-all {
+  width: 100%;
+  height: 800px;
+  background-image: url(../imglar/search-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: end;
+
+  p {
+    color: red;
+  }
+}
+.btn{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.contact-in-all input{
+  width: 400px;
+}
+.contact-one {
+  max-width: 700px;
+  height: 500px;  
+  gap: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.39);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.style_input {
+  border: none;
+  padding: 1rem;
+  width: 600px;
+  height: 15px;
+  font-size: 15px;
+  border-radius: 1rem;
+  background: #274580;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.style_input:focus {
+  outline-color: #5b657d;
+  background: #5b657d;
+  box-shadow: inset 20px 20px 60px #5b657d, inset -20px -20px 60px #5b657d;
+  transition: 0.3s;
+}
+.style_input_two {
+  height: 90px;
+}
+.captcha {
+  width: 400px;
+  height: 50px;
+  background-color: white;
+}
+
+.captcha-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+.captcha-container span {
+  border-radius: 5px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  
+  border-radius: 5px;
+}
+.captcha-container button {
+  color: white;
+  background: #274580;
+  border-radius: 5px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.captcha {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #274580;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  height: 20px;
+  border: none ;
+  user-select: none; /* Prevent user from selecting the text */
+}
+
+.refresh-captcha-button {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.captcha-input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
